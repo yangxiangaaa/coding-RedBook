@@ -1,0 +1,7 @@
+.tab {
+    color: rgb(118, 122, 122);
+}
+
+.tab .tab-s {
+    --active-title-color: black;
+}

@@ -1,0 +1,247 @@
+.detail .d-a {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    z-index: 9999;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.detail .d-a i {
+    line-height: 20px;
+}
+
+.detail .d-b {
+    position: fixed;
+    top: 5px;
+    right: 10px;
+    z-index: 9999;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.detail .d-a i {
+    line-height: 20px;
+}
+
+.detail .btn-a {
+    border-radius: 0;
+    height: 500px;
+    width: 100%;
+}
+
+.detail .aimg {
+    height: 450px;
+}
+
+.detail-body {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    /* background-color: aqua; */
+    margin-top: -35px;
+    padding: 15px;
+    border: 1px solid rgb(233, 228, 228);
+    border-radius: 10px;
+    height: 150px;
+}
+
+.detail-body .s-a {
+    width: 100%;
+    height: 20px;
+}
+
+.detail-body span {
+    float: left;
+}
+
+.detail-body span i {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.detail-body div>i {
+    float: right;
+}
+
+.title {
+    margin: 10px;
+    float: left;
+}
+
+.detail-body .foota {
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    padding: 5px 10px;
+    margin-left: -15px;
+    background-color: rgb(245, 237, 237);
+}
+
+.detail-body .f-a {
+    float: left;
+    /* margin-left: 10px; */
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: rgb(239, 241, 243);
+}
+
+.detail-body .foota span .f-b {
+    float: left;
+    margin-left: 3px;
+    line-height: 20px;
+    font-size: 10px;
+}
+
+
+/* .footer p{
+    font-size: 12px;
+   position: absolute;
+   left: 45px;
+   top: -4px;
+} */
+
+.detail-body .foota p {
+    float: left;
+    width: 60px;
+    font-size: 14px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.detail-body .foota .f-c i {
+    margin-right: -220px;
+}
+
+.foot {
+    width: 100%;
+    height: 175px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    border: 1px solid rgb(246, 239, 239);
+    /* background-color: aqua; */
+}
+
+.foot img {
+    width: 100%;
+    height: 100%;
+}
+
+.foot-a {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 3px;
+    border-bottom: 1px solid rgb(222, 206, 206);
+    /* background-color: brown; */
+}
+
+.foot-a:nth-child(3) {
+    border-bottom: none;
+}
+
+.foot-a p {
+    width: 50px;
+    margin: 5px;
+}
+
+.foot div {
+    flex: 1;
+}
+
+.foot-a span i {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-right: -11px;
+}
+
+.foot-a div span {
+    display: block;
+    margin-left: 20px;
+    font-size: 10px;
+    color: red;
+    width: 50px;
+    height: 18px;
+    margin-top: 5px;
+    border: 1px solid red;
+}
+
+.foot-a .f-c {
+    width: 40px;
+}
+
+.foot-a>div {
+    width: 100px;
+}
+
+.foot-a div p {
+    width: 100%;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.detail-footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(238, 225, 225);
+}
+
+.detail-footer-a {
+    position: relative;
+    float: left;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.detail-footer-a span {
+    width: 100%;
+    height: 10px;
+    font-size: 16px;
+}
+
+.detail-footer-a p {
+    font-size: 10px;
+    flex: 1;
+}
+
+.detail-footer-a .num {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: red;
+    top: -5px;
+    left: 17px;
+}
+
+.detail-footer-b {
+    float: left;
+    width: 100px;
+    height: 30px;
+    color: aliceblue;
+    font-size: 16px;
+    border: 1px solid rgb(165, 157, 157);
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-left: 15px;
+    text-align: center;
+    line-height: 30px;
+    background-color: rgb(222, 31, 31);
+}

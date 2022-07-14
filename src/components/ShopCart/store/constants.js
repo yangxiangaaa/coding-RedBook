@@ -1,0 +1,3 @@
+export const CHANGE_SHOW = 'CHANGE_SHOW'
+
+export const CHANGE_QUANSELECT = 'CHANGE_QUANSELECT'
